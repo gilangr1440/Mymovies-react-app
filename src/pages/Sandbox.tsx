@@ -10,6 +10,8 @@ const Sandbox = () => {
   const [trigger, setTrigger] = useState(false);
   const [data] = useFetchGet("https://jsonplaceholder.typicode.com/todos/1");
 
+  //ini halaman sandbox
+
   /*
   Ketika ada perubahan state pada saat useEffect berjalan, maka terjadi sebuah re-render component.
 
